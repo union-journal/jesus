@@ -1,0 +1,23 @@
+{
+  "name": "jesus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "action.js",
+  "dependencies": {
+    "dragscroll": "0.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/union-journal/jesus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/union-journal/jesus/issues"
+  },
+  "homepage": "https://github.com/union-journal/jesus#readme"
+}
