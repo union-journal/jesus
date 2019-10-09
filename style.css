@@ -1,5 +1,9 @@
 body {
   cursor: grab;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
