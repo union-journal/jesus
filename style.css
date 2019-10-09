@@ -6,5 +6,86 @@ body {
   overflow-y: hidden;
 }
 
+.top {
+  position: fixed;
+  width:50%;
+}
+
+/* #question {
+  height: 25px;
+} */
+
+.info {
+  position: fixed;
+  font-size: 26px;
+  color: white;
+  z-index: 999;
+  top: 10px;
+  right: 10px;
+	padding:0px 0px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#tag-menu {
+	display:none;
+}
+
+
+#tag-menu:checked ~ div.drawer {
+ animation: slide-out 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+/* linear-gradient(to right, , rgba(255,0,0,0)); */
+.drawer {
+  background: radial-gradient(farthest-corner at 60% 55%, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.75),rgba(255,0,0,0));
+	position:fixed;
+  top: 0;
+	right:-500px;
+	height:100%;
+	z-index:100;
+	width:280px;
+	animation: slide-in 0.5s ease;
+	animation-fill-mode: forwards;
+  margin-top: 0px;
+  overflow-y: scroll;
+}
+
+.text {
+  text-align: justify;
+  margin-top: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+@keyframes slide-in {
+ from {right: 0px;}
+ to {right: -280px;}
+}
+
+@keyframes slide-out {
+ from {right: -280px;}
+ to {right: 0px;}
+}
+
+/* @keyframes slide-in {
+ from {left: 700px;}
+ to {left: 0;}
+}
+
+@keyframes slide-out {
+ from {left: 0;}
+ to {left: -280px;}
+} */
+
+
+
+
 
 /* set loading image of first corner of image */
+
+/* tile the image to see if it loads better */
