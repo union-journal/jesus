@@ -75,15 +75,49 @@ body {
  to {right: 0px;}
 }
 
-/* @keyframes slide-in {
- from {left: 700px;}
- to {left: 0;}
+.big-container {
+  position: inline-block;
+  width: 12600px;
+}
+.one {
+  top: 0;
+  left: 0;
+  float: left;
 }
 
-@keyframes slide-out {
- from {left: 0;}
- to {left: -280px;}
-} */
+.two {
+  top: 0;
+  float: left;
+}
+
+.three {
+  top: 0;
+  float: left;
+}
+
+.four {
+  float: left;
+}
+
+.five {
+  float: left;
+}
+
+.six {
+  float: left;
+}
+
+.seven {
+  float: left;
+}
+
+.eight {
+  float: left;
+}
+
+.nine {
+  float: left;
+}
 
 
 
