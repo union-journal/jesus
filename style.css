@@ -2,8 +2,8 @@ body {
   cursor: crosshair;
   margin: 0px;
   padding: 0px;
-  /* overflow-x: hidden;
-  overflow-y: hidden; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .top {
