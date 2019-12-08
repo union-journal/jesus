@@ -50,7 +50,6 @@ body {
 	animation: slide-in 0.5s ease;
 	animation-fill-mode: forwards;
   margin-top: 0px;
-  overflow-y: hidden;
   /* eventually make scroll within a div */
 }
 
