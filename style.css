@@ -2,8 +2,8 @@ body {
   cursor: crosshair;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 }
 
 .top {
@@ -76,8 +76,11 @@ p {
 
 .big-container {
   position: inline-block;
-  width: 12600px;
+  width: 25200px;
 }
+/* image 1  and 2 */
+
+/* row 1 */
 .one {
   top: 0;
   left: 0;
@@ -94,6 +97,23 @@ p {
   float: left;
 }
 
+.nineteen {
+  top: 0;
+  float: left;
+}
+
+.twenty {
+  top: 0;
+  float: left;
+}
+
+.twentyone {
+  top: 0;
+  float: left;
+}
+
+/* row 2 */
+
 .four {
   float: left;
 }
@@ -106,6 +126,20 @@ p {
   float: left;
 }
 
+.twentytwo{
+  float: left;
+}
+
+.twentythree{
+  float: left;
+}
+
+.twentyfour{
+  float: left;
+}
+
+/* row 3 */
+
 .seven {
   float: left;
 }
@@ -117,6 +151,97 @@ p {
 .nine {
   float: left;
 }
+
+.twentyfive{
+  float: left;
+}
+
+.twentysix{
+  float: left;
+}
+
+.twentyseven{
+  float: left;
+}
+
+/* image 3 and 4 */
+/* row 1 */
+.ten {
+  float: left;
+}
+
+.eleven {
+  float: left;
+}
+
+.twelve {
+  float: left;
+}
+
+.twentyeight {
+  float: left;
+}
+
+.twentynine {
+  float: left;
+}
+
+.thirty {
+  float: left;
+}
+
+/* row 2 */
+
+.thirteen {
+  float: left;
+}
+
+.fourteen {
+  float: left;
+}
+
+.fifteen {
+  float: left;
+}
+
+.thirtyone {
+  float: left;
+}
+
+.thirtytwo {
+  float: left;
+}
+
+.thirtythree {
+  float: left;
+}
+
+/* row 3 */
+
+.sixteen {
+  float: left;
+}
+
+.seventeen {
+  float: left;
+}
+
+.eightteen {
+  float: left;
+}
+
+.thirtyfour {
+  float: left;
+}
+
+.thirtyfive {
+  float: left;
+}
+
+.thirtyfive {
+  float: left;
+}
+
 
 
 
