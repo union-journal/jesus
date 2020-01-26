@@ -2,6 +2,7 @@ body {
   cursor: crosshair;
   margin: 0px;
   padding: 0px;
+  background-color: black;
   /* overflow-x: hidden;
   overflow-y: hidden; */
 }
