@@ -71,6 +71,15 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+#bar_name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+#bar_title {
+  font-size: 20px;
+}
+
 #main {
   font-size: 15px;
 }
