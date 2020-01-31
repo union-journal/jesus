@@ -12,9 +12,15 @@ body {
   width:50%;
 }
 
-/* #question {
-  height: 25px;
-} */
+#whole::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(0,0,0,0);; /* or add it to the track */
+}
+
+#whole::-webkit-scrollbar-thumb {
+  background: #black;
+}
 
 .info {
   position: fixed;
@@ -54,15 +60,23 @@ body {
   /* eventually make scroll within a div */
 }
 
-p {
+#whole {
   text-align: justify;
   margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 35px;
-  font-size: 15px;
   overflow-y: auto;
   height: inherit;
+  height: 90%
+}
+
+#main {
+  font-size: 15px;
+}
+
+#citations {
+  font-size: 12px;
 }
 
 @keyframes slide-in {
